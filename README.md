@@ -1,1 +1,34 @@
 # python met turtle opdrachten
+Deze repository bevat een configuratie voor de Codespaces ontwikkelomgeving.
+Leerlingen kunnen hiermee de python opdrachten met turtle-graphics uit Informatica Actief maken.
+
+## Start Codespaces
+- Login op GitHub
+- Kies de repository met jouw code
+- Klik op de groene knop "Code" en dan op de tab "Codespace" en dan op de groen knop "Create codespace on main".
+- Het starten van de Codespace kan enkele minuten duren. Als de Codespace gestart is, dan zie je de webversie van de editor VS Code (spreek uit als: vie-es-koot).
+
+## Code uitvoeren
+Start het programma door in de terminal te typen<br>
+`python main.py`
+
+Stop de code door indrukken van de toetsen<br>
+`[CRTL]+[C]`
+
+Start het programma opnieuw met de toets<br>
+`[PIJL OMHOOG]`
+
+## GUI openen
+De GUI opent automatisch in Simple Browser nadat de game is gestart.
+
+Als de GUI niet automatisch opent:<br>
+Klik op ports, klik bij port 6080 (GUI) op "Open in Browser" (wereldbol) of "Preview in Editor" (rechts van wereldbol)<br>
+Klik met je muis op de GUI om het toetsenbord aan je game te koppelen.
+
+## Code aanpassen
+- Dubbelklik op het bestand `main.py`. Het bestand wordt geopend in de editor.
+
+## Wijzigingen opslaan in GitHub
+- Klik in de activity bar op het Source Control icoon.
+- Voer een beschrijving van de wijziging in
+- Druk op de groen knop "Commit & Sync"
