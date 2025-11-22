@@ -10,12 +10,12 @@
     "git.autofetchPeriod": 60, // autofetch period 60 seconds
     "merge-conflict.autoNavigateNextConflict.enabled": true, // auto navigate to next merge conflict after resolving one, must be false to prevent ignoring merge ours strategy
 
+    "extensions.ignoreRecommendations": true, // disable prompt that asks to install recommended extensions
+
     "python.createEnvironment.trigger": "off", // disable prompt that asks if a python environment needs to be created
 
     // copilor settings
     "github.copilot.enable": { // disable copilot code suggestions in editor, we rather stick to autocomplete and use copilot chat for code snippets
         "*": false
     },
-    "python-envs.defaultEnvManager": "ms-python.python:system",
-    "python-envs.pythonProjects": [],
 }
