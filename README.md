@@ -32,7 +32,7 @@ Klik op ports, klik bij port 6080 (GUI) op "Open in Browser" (wereldbol) of "Pre
 Klik met je muis op de GUI om het toetsenbord aan je game te koppelen.
 
 ## Code aanpassen
-- Dubbelklik op het bestand `main.py`. Het bestand wordt geopend in de editor.
+- Dubbelklik op een bestand dat eindigt op `.py`. Het bestand wordt geopend in de editor.
 
 ## Wijzigingen opslaan in GitHub
 - Klik in de activity bar op het Source Control icoon.
