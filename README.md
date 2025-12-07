@@ -16,7 +16,7 @@ De configuratie ondesteunt:
 
 ## Code uitvoeren
 Start het programma door in de terminal te typen<br>
-`python main.py`
+`python main-turtle.py` of `python main-play.py`
 
 Stop de code door indrukken van de toetsen<br>
 `[CRTL]+[C]`
