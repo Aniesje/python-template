@@ -12,7 +12,13 @@ function activate(context) {
     resolveTask(task) {
       const def = task.definition || {};
       const commandId = def.command;
-      const args = Array.isArray(def.args) ? def.args : [];
+      let args = Array.isArray(def.args) ? def.args : [];
+
+      // Override URL parameter with CODESPACE_NAME if available
+      const codespaceName = process.env.CODESPACE_NAME;
+      if (codespaceName && args.length > 0 && typeof args[0] === "string") {
+        args[0] = args[0].replace("https://${env:CODESPACE_NAME}-6080.app.github.dev/", codespaceName);
+      }
 
       const execution = new vscode.CustomExecution(async () => {
         const writeEmitter = new vscode.EventEmitter();

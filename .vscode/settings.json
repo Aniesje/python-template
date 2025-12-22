@@ -33,5 +33,6 @@
     },
 
     "vscodeCommandTask.allowedCommands": ["simpleBrowser.show"],
-    "vscodeCommandTask.confirmBeforeRun": true
+    "vscodeCommandTask.confirmBeforeRun": false,
+    "vscodeCommandTask.url": "https://${env:CODESPACE_NAME}-6080.app.github.dev/"
 }

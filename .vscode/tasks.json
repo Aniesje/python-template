@@ -4,10 +4,10 @@
   "version": "2.0.0",
   "tasks": [
     {
-        "label": "Open Simple Browser",
+      "label": "Open Simple Browser",
       "type": "vscodeCommand",
       "command": "simpleBrowser.show",
-      "args": ["https://curly-winner-9j4jxrwq6qq27764-6080.app.github.dev/"],
+      "args": ["${config:vscodeCommandTask.url}"],
       "group": "test",
       "presentation": {
         "reveal": "always",
