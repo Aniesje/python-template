@@ -3,6 +3,6 @@
 
 import play
 
-play.new_circle()
+play.new_circle(color='red')
 
 play.start_program()
